@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-09-06T18:30:00+09:00",
+  "items": [
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 직업공통인력 인증으로 그리는 나의 미래!",
+      "date": "2026-08-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=340&boardSeq=106945&lev=0&m=020501&opType=N&page=2&s=moe",
+      "topic": "교육·채용"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 학교생활기록의 상업적 이용이 제한됩니다",
+      "date": "2026-07-20",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=340&boardSeq=106735&lev=0&m=020501&opType=N&page=1&s=moe",
+      "topic": "교육정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "국민추천제 집중추천 활용가이드",
+      "date": "2026-06-22",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/",
+      "topic": "인사정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "2026년 국가공무원 9급 공채 원서접수가 시작됩니다",
+      "date": "2026-01-28",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/",
+      "topic": "공정채용"
+    }
+  ]
+}
