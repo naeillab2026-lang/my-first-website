@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, "Noto Sans KR", sans-serif;
-    background: #f4f8fc;
-    color: #222;
+    background: #eaf5ff;
+    color: #1f2937;
 }
 
 .container {
@@ -11,8 +11,18 @@ body {
     padding: 60px;
     text-align: center;
     background: white;
+    border-radius: 24px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+    background: #e0f2fe;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 h1 {
@@ -20,16 +30,23 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
+.description {
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 button {
-    margin-top: 20px;
-    padding: 14px 28px;
+    margin-top: 25px;
+    padding: 15px 30px;
     font-size: 16px;
-    border: 0;
-    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
     cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
 }
