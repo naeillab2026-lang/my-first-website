@@ -1,0 +1,31 @@
+/* Main page readability, accessibility and responsive refinements */
+.nav{height:88px}
+.logo{font-size:21px}
+.nav nav{gap:30px;font-size:17px}
+.nav nav a{padding:30px 0 27px}
+.nav nav .pill{min-height:46px;padding:11px 20px;display:inline-flex;align-items:center}
+.btn{min-height:52px;padding:0 24px;font-size:16px}
+.section{padding:104px 0}
+.section-head{margin-bottom:46px}
+.section-head>p,.policy-head-copy{font-size:17px;line-height:1.8}
+.quick-grid small{font-size:14px;line-height:1.55}
+.business-card>p:not(.card-label){font-size:17px;line-height:1.75}
+.business-card ul{font-size:15px;line-height:1.65}
+.process-line p{font-size:15px;line-height:1.65}
+.principles-cards p{font-size:15px;line-height:1.7}
+.home-policy-item p{font-size:14px;line-height:1.65}
+.home-policy-item a{font-size:15px}
+.esg-topic-grid p{font-size:15px;line-height:1.65}
+a:focus-visible,button:focus-visible{outline:3px solid #1769c7;outline-offset:3px;border-radius:4px}
+@media(max-width:1020px){.section{padding:86px 0}.nav nav{font-size:16px;gap:22px}}
+@media(max-width:760px){
+  .nav{height:72px}.logo{font-size:18px}.nav nav{top:72px;font-size:17px;gap:0}.nav nav a{padding:13px 0;min-height:48px;display:flex;align-items:center}.nav nav .pill{justify-content:center;margin-top:8px}
+  .section{padding:66px 0}.section-head{margin-bottom:32px}.section-head>p,.policy-head-copy{font-size:16px;line-height:1.75;margin-top:14px}
+  .home-hero-copy{padding:52px 0 34px}.home-hero h1{font-size:clamp(36px,10.5vw,42px);line-height:1.2;letter-spacing:-.045em}.hero-desc{font-size:17px;line-height:1.75;margin-top:22px}
+  .actions{gap:10px}.actions .btn{width:100%}.home-hero-media{min-height:310px}
+  .quick-grid>a{min-height:94px;padding:20px}.quick-grid b{font-size:18px}.quick-grid small{font-size:14px}
+  .business-card{padding:30px 24px}.business-card h3{font-size:27px}.business-card>p:not(.card-label){font-size:16px}.business-card ul{font-size:15px}
+  .principles-cards article{min-height:auto;padding:24px}.home-policy-item{min-height:auto;padding:24px 20px}.home-policy-item h3{font-size:18px}
+  .esg-lead{font-size:16px}.cta-box{padding:32px 24px}.cta-contact .btn{width:100%}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.quick-grid>a,.business-card,.policy-card{transition:none!important}.quick-grid>a:hover,.business-card:hover,.policy-card:hover{transform:none!important}}
