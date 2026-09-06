@@ -1,0 +1,36 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov.min.css');
+body{font-family:'Pretendard GOV Variable','Pretendard GOV',-apple-system,BlinkMacSystemFont,system-ui,'Noto Sans KR','Malgun Gothic',sans-serif}
+.privacy-hero{background:#f3f7fb}
+.privacy-wrap{width:min(980px,calc(100% - 56px));margin:auto}
+.privacy-intro{max-width:820px;font-size:17px;line-height:1.85;color:#566578}
+.privacy-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:34px 0 0}
+.privacy-summary article{padding:21px 19px;border:1px solid #dce4ec;background:#fff;min-height:126px}
+.privacy-summary b{display:block;color:#1769c7;font-size:12px;letter-spacing:.04em;margin-bottom:8px}
+.privacy-summary strong{display:block;color:#183758;font-size:17px;line-height:1.45}
+.privacy-summary span{display:block;margin-top:5px;color:#6f7d8d;font-size:13px;line-height:1.55}
+.privacy-toc{margin:0 0 46px;padding:28px 30px;background:#f7f9fb;border:1px solid #dce4ec}
+.privacy-toc h2{margin:0 0 17px;font-size:20px;color:#173758}
+.privacy-toc ol{display:grid;grid-template-columns:1fr 1fr;gap:8px 30px;margin:0;padding-left:22px;color:#536175}
+.privacy-toc a:hover{color:#1769c7;text-decoration:underline}
+.privacy-section{scroll-margin-top:110px;padding:39px 0;border-top:1px solid #dce4ec}
+.privacy-section:first-of-type{border-top:2px solid #173758}
+.privacy-section h2{margin:0 0 17px;color:#173758;font-size:25px;line-height:1.4;letter-spacing:-.025em}
+.privacy-section h3{margin:24px 0 10px;color:#244765;font-size:19px}
+.privacy-section p,.privacy-section li{font-size:16px;line-height:1.78;color:#4e5e70}
+.privacy-section ul,.privacy-section ol{padding-left:22px}
+.privacy-table-wrap{overflow-x:auto;margin:20px 0 12px}
+.privacy-table{width:100%;border-collapse:collapse;border-top:2px solid #173758;background:#fff;font-size:15px}
+.privacy-table th,.privacy-table td{padding:15px 14px;border-bottom:1px solid #dce4ec;vertical-align:top;text-align:left;line-height:1.65}
+.privacy-table th{background:#f4f7fa;color:#173758;font-weight:750;white-space:nowrap}
+.privacy-table td{color:#526176}
+.privacy-note{margin:18px 0;padding:18px 20px;border-left:4px solid #1769c7;background:#f2f7fc;color:#46596d;font-size:15px;line-height:1.7}
+.privacy-caution{border-left-color:#b87820;background:#fff7eb;color:#6e522b}
+.privacy-none{padding:18px 20px;border:1px solid #dce4ec;background:#fafbfd;color:#556579}
+.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.contact-box article{padding:22px;border:1px solid #dce4ec;background:#fff}
+.contact-box b{display:block;margin-bottom:9px;color:#173758;font-size:16px}.contact-box p{margin:3px 0;font-size:15px}
+.privacy-links a{color:#1769c7;text-decoration:underline;text-underline-offset:3px}
+.privacy-date{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.privacy-date span{padding:7px 10px;background:#eef3f7;color:#526176;font-size:13px}
+a:focus-visible,button:focus-visible{outline:3px solid #1769c7;outline-offset:3px;border-radius:3px}
+@media(max-width:850px){.privacy-summary{grid-template-columns:1fr 1fr}.privacy-toc ol{grid-template-columns:1fr}.contact-box{grid-template-columns:1fr}}
+@media(max-width:760px){.privacy-wrap{width:min(100% - 30px,980px)}.privacy-summary{grid-template-columns:1fr}.privacy-summary article{min-height:auto}.privacy-toc{padding:22px 20px}.privacy-section{padding:32px 0}.privacy-section h2{font-size:22px}.privacy-table{min-width:650px}.privacy-intro{font-size:16px}.privacy-section p,.privacy-section li{font-size:15px}}
