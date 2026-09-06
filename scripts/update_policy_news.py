@@ -10,13 +10,21 @@ import requests
 from bs4 import BeautifulSoup
 
 OUT = Path(__file__).resolve().parents[1] / "data" / "policy-news.json"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; NAEILLAB-PolicyLinker/2.0; +https://naeillab.ai.kr)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; NAEILLAB-PolicyLinker/2.1; +https://naeillab.ai.kr)"}
 KST = timezone(timedelta(hours=9))
-KEYWORDS = ("채용", "공채", "인사", "인재", "시험", "면접", "평가", "직무", "교육", "훈련", "진로", "취업", "역량", "학교", "AI", "인공지능")
+KEYWORDS = ("채용", "공채", "인사", "인재", "추천", "시험", "면접", "평가", "직무", "교육", "훈련", "진로", "취업", "역량", "학교", "AI", "인공지능")
 
 
 def clean(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "")).strip()
+
+
+def clean_title(text: str) -> str:
+    text = clean(text)
+    for marker in (" 담당부서 ", " 작성일 ", " 등록일 "):
+        if marker in text:
+            text = text.split(marker, 1)[0].strip()
+    return text
 
 
 def parse_date(text: str) -> str:
@@ -39,7 +47,7 @@ def fetch_mpm(limit: int = 8) -> list[dict]:
     items, seen = [], set()
     for a in soup.find_all("a", href=True):
         href = a.get("href", "")
-        title = clean(a.get_text(" ", strip=True))
+        title = clean_title(a.get_text(" ", strip=True))
         if "mode=view" not in href or not title or not relevant(title):
             continue
         link = urljoin(list_url, href)
@@ -62,7 +70,8 @@ def fetch_moe(limit: int = 8) -> list[dict]:
     items, seen = [], set()
     for a in soup.find_all("a", href=True):
         href = a.get("href", "")
-        title = clean(a.get_text(" ", strip=True))
+        raw_title = clean(a.get_text(" ", strip=True))
+        title = clean_title(raw_title)
         if "viewRenew.do" not in href or not title.startswith("[카드뉴스]") or not relevant(title):
             continue
         link = urljoin(list_url, href)
@@ -70,7 +79,8 @@ def fetch_moe(limit: int = 8) -> list[dict]:
             continue
         seen.add(link)
         row = a.find_parent("tr") or a.find_parent("li") or a.parent
-        date = parse_date(clean(row.get_text(" ", strip=True) if row else ""))
+        row_text = clean(row.get_text(" ", strip=True) if row else raw_title)
+        date = parse_date(row_text)
         items.append({"agency":"교육부","title":title,"date":date,"url":link,"topic":"교육정책"})
         if len(items) >= limit:
             break
