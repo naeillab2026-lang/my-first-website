@@ -1,33 +1,76 @@
 {
-  "updated_at": "2026-09-06T18:30:00+09:00",
+  "updated_at": "2026-09-06T18:52:58+09:00",
   "items": [
     {
       "agency": "교육부",
-      "title": "[카드뉴스] 직업공통인력 인증으로 그리는 나의 미래!",
-      "date": "2026-08-19",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=340&boardSeq=106945&lev=0&m=020501&opType=N&page=2&s=moe",
-      "topic": "교육·채용"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 학교생활기록의 상업적 이용이 제한됩니다",
-      "date": "2026-07-20",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=340&boardSeq=106735&lev=0&m=020501&opType=N&page=1&s=moe",
+      "title": "[카드뉴스] 대체불가 대한민국! 교육 지원 정책으로 국민의 삶이 달라집니다! 담당부서 디지털소통팀 작성일 2026-09-02",
+      "date": "2026-09-02",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107101&lev=0&opType=N",
       "topic": "교육정책"
     },
     {
-      "agency": "인사혁신처",
-      "title": "국민추천제 집중추천 활용가이드",
-      "date": "2026-06-22",
-      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/",
-      "topic": "인사정책"
+      "agency": "교육부",
+      "title": "[카드뉴스] 내 고민 해결해줄 교육부 청년정책 모음.ZIP 담당부서 디지털소통팀 작성일 2026-09-02",
+      "date": "2026-09-02",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107100&lev=0&opType=N",
+      "topic": "교육정책"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 2026 하반기 교육부 업무보고 담당부서 디지털소통팀 작성일 2026-08-19",
+      "date": "2026-08-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=106958&lev=0&opType=N",
+      "topic": "교육정책"
     },
     {
       "agency": "인사혁신처",
       "title": "2026년 국가공무원 9급 공채 원서접수가 시작됩니다",
       "date": "2026-01-28",
-      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/",
-      "topic": "공정채용"
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=197&category=&pageIdx=",
+      "topic": "인사·채용정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "2025년도 7급 공채 제1차시험 합격자가 공개됐어요!",
+      "date": "2025-08-25",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=195&category=&pageIdx=",
+      "topic": "인사·채용정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "시험 성정 전과목 '0점', 이게 어떻게 된 일이죠?",
+      "date": "2025-07-09",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=192&category=&pageIdx=",
+      "topic": "인사·채용정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "한국사능력검정시험(한능검)으로 바뀌는 9급 공채, 시험은 어떻게 달라질까?",
+      "date": "2025-07-07",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=191&category=&pageIdx=",
+      "topic": "인사·채용정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "카자흐스탄 인사행정 국제 공개토론회 및 유엔(UN) 공공행정 공개토론회 참석",
+      "date": "2025-07-07",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=189&category=&pageIdx=",
+      "topic": "인사·채용정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "\"국민이 직접 찾은 진짜 일꾼\" 이제 인사도 국민과 함께합니다",
+      "date": "2025-07-01",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=187&category=&pageIdx=",
+      "topic": "인사·채용정책"
+    },
+    {
+      "agency": "인사혁신처",
+      "title": "정기인사 시기인데.. 혹시 타지역으로 발령이 나면 어쩌죠?",
+      "date": "2025-06-19",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=186&category=&pageIdx=",
+      "topic": "인사·채용정책"
     }
-  ]
+  ],
+  "errors": []
 }
