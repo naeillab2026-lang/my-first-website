@@ -1,0 +1,17 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov.min.css');
+body{font-family:'Pretendard GOV Variable','Pretendard GOV',-apple-system,BlinkMacSystemFont,system-ui,Roboto,'Helvetica Neue','Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif}
+.nav{height:88px}
+.logo{font-size:21px}
+.nav nav{gap:30px;font-size:17px}
+.nav nav a{padding:30px 0 27px}
+.nav nav .pill{min-height:46px;padding:11px 20px;display:inline-flex;align-items:center}
+.btn{min-height:52px;padding:0 24px;font-size:16px}
+a:focus-visible,button:focus-visible{outline:3px solid #1769c7;outline-offset:3px;border-radius:4px}
+.footer{margin-top:60px}
+.footer-grid{grid-template-columns:1fr}
+.footer img{display:none!important}
+@media(max-width:1020px){.nav nav{font-size:16px;gap:22px}}
+@media(max-width:760px){
+  .nav{height:72px}.logo{font-size:18px}.nav nav{top:72px;font-size:17px;gap:0}.nav nav a{padding:13px 0;min-height:48px;display:flex;align-items:center}.nav nav .pill{justify-content:center;margin-top:8px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
