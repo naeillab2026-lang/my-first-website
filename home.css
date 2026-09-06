@@ -1,4 +1,5 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov.min.css');
+@import url('home-refine.css?v=1');
 /* NAEIL LAB home page */
 body{font-family:'Pretendard GOV Variable','Pretendard GOV',-apple-system,BlinkMacSystemFont,system-ui,Roboto,'Helvetica Neue','Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif}
 :root{--home-deep:#102f4e;--home-navy:#163a5f;--home-blue:#1769c7;--home-green:#2f6b63;--home-soft:#f5f8fb;--home-line:#dce4ec;--home-muted:#687789}
