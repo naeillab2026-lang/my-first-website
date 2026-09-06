@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T18:54:36+09:00",
+  "updated_at": "2026-09-06T19:26:15+09:00",
   "items": [
     {
       "agency": "교육부",
@@ -79,5 +79,8 @@
       "topic": "인사·채용정책"
     }
   ],
-  "errors": []
+  "errors": [
+    "인사혁신처: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Max retries exceeded with url: /mpm/comm/policyPR/mpmFocus/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mpm.go.kr', port=443) at 0x7fc4ca865d00>, 'Connection to www.mpm.go.kr timed out. (connect timeout=25)'))",
+    "교육부: HTTPSConnectionPool(host='www.moe.go.kr', port=443): Max retries exceeded with url: /boardCnts/listRenew.do?boardID=340&m=020201&s=moe (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moe.go.kr', port=443) at 0x7fc4ca006300>, 'Connection to www.moe.go.kr timed out. (connect timeout=25)'))"
+  ]
 }
