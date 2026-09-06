@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_policy_news.py'
+      - '.github/workflows/update-policy-news.yml'
 
 permissions:
   contents: write
@@ -19,7 +23,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 feedparser
+        run: pip install requests beautifulsoup4
       - name: Fetch official policy card news
         run: python scripts/update_policy_news.py
       - name: Commit changes
