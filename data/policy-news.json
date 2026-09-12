@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:26:44+09:00",
+  "updated_at": "2026-09-12T20:27:49+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -138,8 +138,9 @@
     }
   ],
   "errors": [
-    "재정경제부: RuntimeError: 목록에서 새 게시물을 찾지 못했습니다",
-    "인사혁신처: ConnectTimeout: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Max retries exceeded with url: /mpm/comm/policyPR/mpmFocus/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mpm.go.kr', port=443) at 0x7f51fa7a4350>, 'Connection to www.mpm.go.kr timed out. (connect timeout=12)'))",
-    "중소벤처기업부: ConnectTimeout: HTTPSConnectionPool(host='www.mss.go.kr', port=443): Max retries exceeded with url: /site/smba/ex/bbs/List.do?cbIdx=288 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mss.go.kr', port=443) at 0x7f51fa471b20>, 'Connection to www.mss.go.kr timed out. (connect timeout=12)'))"
+    "재정경제부: ConnectTimeout: HTTPSConnectionPool(host='www.mofe.go.kr', port=443): Max retries exceeded with url: /nw/mosfnw/mosfnw.do?menuNo=4040600 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mofe.go.kr', port=443) at 0x7f08454e32f0>, 'Connection to www.mofe.go.kr timed out. (connect timeout=12)'))",
+    "인사혁신처: ConnectTimeout: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Max retries exceeded with url: /mpm/comm/policyPR/mpmFocus/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mpm.go.kr', port=443) at 0x7f0845d5b1a0>, 'Connection to www.mpm.go.kr timed out. (connect timeout=12)'))",
+    "교육부: ConnectTimeout: HTTPSConnectionPool(host='www.moe.go.kr', port=443): Max retries exceeded with url: /boardCnts/listRenew.do?boardID=340&m=020201&s=moe (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moe.go.kr', port=443) at 0x7f08454e3d70>, 'Connection to www.moe.go.kr timed out. (connect timeout=12)'))",
+    "중소벤처기업부: ConnectTimeout: HTTPSConnectionPool(host='www.mss.go.kr', port=443): Max retries exceeded with url: /site/smba/ex/bbs/List.do?cbIdx=288 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mss.go.kr', port=443) at 0x7f0845508800>, 'Connection to www.mss.go.kr timed out. (connect timeout=12)'))"
   ]
 }
