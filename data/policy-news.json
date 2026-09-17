@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T04:28:40+09:00",
+  "updated_at": "2026-09-18T05:30:43+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -138,9 +138,9 @@
     }
   ],
   "errors": [
-    "재정경제부: ConnectTimeout: HTTPSConnectionPool(host='www.mofe.go.kr', port=443): Max retries exceeded with url: /nw/mosfnw/mosfnw.do?menuNo=4040600 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mofe.go.kr', port=443) at 0x7fc9e126b740>, 'Connection to www.mofe.go.kr timed out. (connect timeout=12)'))",
-    "인사혁신처: ConnectTimeout: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Max retries exceeded with url: /mpm/comm/policyPR/mpmFocus/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mpm.go.kr', port=443) at 0x7fc9e14f07d0>, 'Connection to www.mpm.go.kr timed out. (connect timeout=12)'))",
-    "교육부: ConnectTimeout: HTTPSConnectionPool(host='www.moe.go.kr', port=443): Max retries exceeded with url: /boardCnts/listRenew.do?boardID=340&m=020201&s=moe (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moe.go.kr', port=443) at 0x7fc9e12a0230>, 'Connection to www.moe.go.kr timed out. (connect timeout=12)'))",
-    "중소벤처기업부: ConnectTimeout: HTTPSConnectionPool(host='www.mss.go.kr', port=443): Max retries exceeded with url: /site/smba/ex/bbs/List.do?cbIdx=288 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mss.go.kr', port=443) at 0x7fc9e12a0c80>, 'Connection to www.mss.go.kr timed out. (connect timeout=12)'))"
+    "재정경제부: ConnectTimeout: HTTPSConnectionPool(host='www.mofe.go.kr', port=443): Max retries exceeded with url: /nw/mosfnw/mosfnw.do?menuNo=4040600 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mofe.go.kr', port=443) at 0x7f91a1383650>, 'Connection to www.mofe.go.kr timed out. (connect timeout=12)'))",
+    "인사혁신처: ConnectTimeout: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Max retries exceeded with url: /mpm/comm/policyPR/mpmFocus/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mpm.go.kr', port=443) at 0x7f91a2600a70>, 'Connection to www.mpm.go.kr timed out. (connect timeout=12)'))",
+    "교육부: ConnectTimeout: HTTPSConnectionPool(host='www.moe.go.kr', port=443): Max retries exceeded with url: /boardCnts/listRenew.do?boardID=340&m=020201&s=moe (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moe.go.kr', port=443) at 0x7f91a13ac110>, 'Connection to www.moe.go.kr timed out. (connect timeout=12)'))",
+    "중소벤처기업부: ConnectTimeout: HTTPSConnectionPool(host='www.mss.go.kr', port=443): Max retries exceeded with url: /site/smba/ex/bbs/List.do?cbIdx=288 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mss.go.kr', port=443) at 0x7f91a13acb60>, 'Connection to www.mss.go.kr timed out. (connect timeout=12)'))"
   ]
 }
