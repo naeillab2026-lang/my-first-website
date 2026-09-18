@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T22:29:49+09:00",
+  "updated_at": "2026-09-18T23:26:55+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -10,33 +10,9 @@
   "items": [
     {
       "agency": "교육부",
-      "title": "[카드뉴스] 기초학력 진단부터 맞춤형 학습까지! 국가기초학력지원포털",
-      "date": "2026-09-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107102&lev=0&opType=N",
-      "topic": "교육·인재정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 대체불가 대한민국! 교육 지원 정책으로 국민의 삶이 달라집니다!",
-      "date": "2026-09-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107101&lev=0&opType=N",
-      "topic": "교육·인재정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 내 고민 해결해줄 교육부 청년정책 모음.ZIP",
-      "date": "2026-09-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107100&lev=0&opType=N",
-      "topic": "교육·인재정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 「사립대학구조개선법 시행령」 제정안 심의·의결",
-      "date": "2026-08-19",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=106959&lev=0&opType=N",
+      "title": "[카드뉴스]지방교육재정교부금 개편",
+      "date": "2026-09-18",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107247&lev=0&opType=N",
       "topic": "교육·인재정책",
       "type": "카드뉴스"
     },
@@ -138,9 +114,6 @@
     }
   ],
   "errors": [
-    "재정경제부: ConnectTimeout: HTTPSConnectionPool(host='www.mofe.go.kr', port=443): Max retries exceeded with url: /nw/mosfnw/mosfnw.do?menuNo=4040600 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mofe.go.kr', port=443) at 0x7ff011d6b8c0>, 'Connection to www.mofe.go.kr timed out. (connect timeout=12)'))",
-    "인사혁신처: ConnectTimeout: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Max retries exceeded with url: /mpm/comm/policyPR/mpmFocus/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mpm.go.kr', port=443) at 0x7ff0125b8110>, 'Connection to www.mpm.go.kr timed out. (connect timeout=12)'))",
-    "교육부: ConnectTimeout: HTTPSConnectionPool(host='www.moe.go.kr', port=443): Max retries exceeded with url: /boardCnts/listRenew.do?boardID=340&m=020201&s=moe (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moe.go.kr', port=443) at 0x7ff011da4350>, 'Connection to www.moe.go.kr timed out. (connect timeout=12)'))",
-    "중소벤처기업부: ConnectTimeout: HTTPSConnectionPool(host='www.mss.go.kr', port=443): Max retries exceeded with url: /site/smba/ex/bbs/List.do?cbIdx=288 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mss.go.kr', port=443) at 0x7ff011da4da0>, 'Connection to www.mss.go.kr timed out. (connect timeout=12)'))"
+    "재정경제부: RuntimeError: 목록에서 새 게시물을 찾지 못했습니다"
   ]
 }
