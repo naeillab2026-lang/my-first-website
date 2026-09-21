@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T14:26:33+09:00",
+  "updated_at": "2026-09-21T15:34:31+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -10,9 +10,17 @@
   "items": [
     {
       "agency": "교육부",
-      "title": "[카드뉴스]지방교육재정교부금 개편",
-      "date": "2026-09-18",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107247&lev=0&opType=N",
+      "title": "[카드뉴스] 꾸미와 함께 알아보는 2026년 1차 학교폭력 실태조사 결과!",
+      "date": "2026-09-21",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107272&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 유학생 30만 시대! 외국인 유학생 인재양성을 위한정책이 본격화됩니다",
+      "date": "2026-09-21",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107271&lev=0&opType=N",
       "topic": "교육·인재정책",
       "type": "카드뉴스"
     },
