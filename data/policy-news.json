@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:25:48+09:00",
+  "updated_at": "2026-09-28T09:37:03+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -122,6 +122,7 @@
     }
   ],
   "errors": [
-    "재정경제부: RuntimeError: 목록에서 새 게시물을 찾지 못했습니다"
+    "재정경제부: RuntimeError: 목록에서 새 게시물을 찾지 못했습니다",
+    "인사혁신처: ConnectionError: HTTPSConnectionPool(host='www.mpm.go.kr', port=443): Read timed out."
   ]
 }
