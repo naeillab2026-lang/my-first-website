@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:30:55+09:00",
+  "updated_at": "2026-10-01T14:29:05+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -122,7 +122,6 @@
     }
   ],
   "errors": [
-    "재정경제부: RuntimeError: 목록에서 새 게시물을 찾지 못했습니다",
-    "교육부: SSLError: HTTPSConnectionPool(host='www.moe.go.kr', port=443): Max retries exceeded with url: /boardCnts/listRenew.do?boardID=340&m=020201&s=moe (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010)')))"
+    "재정경제부: RuntimeError: 목록에서 새 게시물을 찾지 못했습니다"
   ]
 }
