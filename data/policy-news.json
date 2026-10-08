@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T10:00:18+09:00",
+  "updated_at": "2026-10-08T16:24:56+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -8,6 +8,14 @@
     "중소벤처기업부"
   ],
   "items": [
+    {
+      "agency": "인사혁신처",
+      "title": "저소득층의 공직 진출 및 자립 지원을 위한 국가공무원 9급 공채 저소득층 구분모집",
+      "date": "2026-10-08",
+      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=201&category=&pageIdx=",
+      "topic": "인사·채용정책",
+      "type": "카드뉴스"
+    },
     {
       "agency": "교육부",
       "title": "[카드뉴스] 함께학교 마음동행 캠페인 운영",
@@ -101,14 +109,6 @@
       "title": "\"국민이 직접 찾은 진짜 일꾼\" 이제 인사도 국민과 함께합니다",
       "date": "2025-07-01",
       "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=187&category=&pageIdx=",
-      "topic": "인사·채용정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "인사혁신처",
-      "title": "정기인사 시기인데.. 혹시 타지역으로 발령이 나면 어쩌죠?",
-      "date": "2025-06-19",
-      "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=186&category=&pageIdx=",
       "topic": "인사·채용정책",
       "type": "카드뉴스"
     },
