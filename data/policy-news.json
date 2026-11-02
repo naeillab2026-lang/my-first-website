@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T08:35:26+09:00",
+  "updated_at": "2026-11-02T15:01:08+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -8,6 +8,14 @@
     "중소벤처기업부"
   ],
   "items": [
+    {
+      "agency": "교육부",
+      "title": "교육부 온라인 정책홍보 이해도 조사",
+      "date": "2026-11-02",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107538&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
     {
       "agency": "인사혁신처",
       "title": "저소득층의 공직 진출 및 자립 지원을 위한 국가공무원 9급 공채 저소득층 구분모집",
@@ -53,14 +61,6 @@
       "title": "[카드뉴스] 2027년 교육부 예산안",
       "date": "2026-10-02",
       "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107363&lev=0&opType=N",
-      "topic": "교육·인재정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 꾸미와 함께 알아보는 2026년 1차 학교폭력 실태조사 결과!",
-      "date": "2026-09-21",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107272&lev=0&opType=N",
       "topic": "교육·인재정책",
       "type": "카드뉴스"
     },
