@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:27:07+09:00",
+  "updated_at": "2026-11-19T22:05:44+09:00",
   "source": "대한민국 정부기관 공식 누리집",
   "agencies": [
     "재정경제부",
@@ -10,9 +10,57 @@
   "items": [
     {
       "agency": "교육부",
-      "title": "교육부 온라인 정책홍보 이해도 조사",
-      "date": "2026-11-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107538&lev=0&opType=N",
+      "title": "[카드뉴스] 교육혁신선도지역 43개 지역 지정",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107716&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 학교민원, 학교와 교육청 그리고 교육부가 함께 지원합니다!",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107715&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 학교민원, 학교와 교육청 그리고 교육부가 함께 지원합니다!",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107714&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 2026 농어촌 참 좋은학교 공모전 선정",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107713&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 세계가 인정하는 K-직업계고 기술인재의 숙련기술",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107712&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스]2026년 한국형 사회정서교육 우수사례 공모전",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107711&lev=0&opType=N",
+      "topic": "교육·인재정책",
+      "type": "카드뉴스"
+    },
+    {
+      "agency": "교육부",
+      "title": "[카드뉴스] 교육부 소관 법령 국무회의 통과 3건 _26.10.20.",
+      "date": "2026-11-19",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107709&lev=0&opType=N",
       "topic": "교육·인재정책",
       "type": "카드뉴스"
     },
@@ -22,30 +70,6 @@
       "date": "2026-10-08",
       "url": "https://www.mpm.go.kr/mpm/comm/policyPR/mpmFocus/?boardId=bbs_0000000000000127&mode=view&cntId=201&category=&pageIdx=",
       "topic": "인사·채용정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 함께학교 마음동행 캠페인 운영",
-      "date": "2026-10-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107370&lev=0&opType=N",
-      "topic": "교육·인재정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 국가 공인 한국어시험 TOPIK! 2029년 새롭게 바뀝니다!",
-      "date": "2026-10-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107369&lev=0&opType=N",
-      "topic": "교육·인재정책",
-      "type": "카드뉴스"
-    },
-    {
-      "agency": "교육부",
-      "title": "[카드뉴스] 유아대상 학원 입학 시험 전면 금지!",
-      "date": "2026-10-02",
-      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020201&s=moe&page=1&boardID=340&boardSeq=107367&lev=0&opType=N",
-      "topic": "교육·인재정책",
       "type": "카드뉴스"
     },
     {
